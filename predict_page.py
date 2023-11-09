@@ -6,7 +6,7 @@ import torch
 
 def display_predict_page(model):
     st.title('Friends(~like) Script Generator')
-    st.info("This model was designed to produce new scripts of the tv show 'Friends'. It was trained on the scripts of seasons 1 to 8 episodes.")
+    st.info("This model was designed to produce new scripts of the tv show 'Friends'. It was trained on the scripts of seasons 1 to 8.")
 
 
     context = ''
